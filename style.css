@@ -34,7 +34,7 @@ ul li::after{
   border-radius: 20px;
   padding: 2px;
   background: linear-gradient(45deg, var(--clr), transparent, var(--clr));
-  background-size: 200%;
+  background-size: 300%;
   animation: borderMove 4s linear infinite;
   -webkit-mask:linear-gradient(#000 0 0)content-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
@@ -42,7 +42,7 @@ ul li::after{
 }
 @keyframes borderMove{
   0%{background-position: 0%;}
-  100%{ background-position: 200%;}
+  100%{ background-position: 300%;}
 }
 li .fab{
   font-size: 42px;
